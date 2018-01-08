@@ -1,10 +1,10 @@
 # Jekyll configuration
 
-name: Xixia
-description: Welcome to Xixia！
+name: adolphicky
+description: Welcome to adolphicky！
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
+url: https://adolphicky.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
