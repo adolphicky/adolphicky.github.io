@@ -3,7 +3,7 @@ layout: page
 title: 关于我 
 ---
 
-沉迷python、linux系统、开源技术无法自拔。
+热爱编程、linux系统、开源技术，努力变得更好。
 <p>
 
 <p>
