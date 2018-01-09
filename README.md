@@ -1,6 +1,6 @@
 ###Adholphicky
 
-		一个沉迷python、linux system、开源技术无法自拔的奋斗者。
+		喜爱linux system、开源技术。
 
 ###感谢
 
