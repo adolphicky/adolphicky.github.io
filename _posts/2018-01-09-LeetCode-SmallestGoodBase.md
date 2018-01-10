@@ -49,6 +49,7 @@ The string representing n is always valid and will not have leading zeros.
 因此k可能的解为：int(n ** 1/m)
 
 最后验证1 + k + k^2 + ... + k^m 是否等于 n
+```
 
 ### Python代码
 ```python
