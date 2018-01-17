@@ -22,6 +22,7 @@ events{
 上面这段代码中每个配置选项的含义解释如下：
 - `user`是个主模块指令，指定Nginx worker进程运行用户级用户组，默认由nobody账号运行。
 - `worker_processes`是个主模块指令，指定了Nginx要开启的进程数。每个Nginx进程平均耗费10MB~12MB内存。根据经验，一般指定一个进程足够了，如果是多核CPU，建议指定和CPU的数量一样多的进程数即可。
+- `worker_cpu_affinity`是个主模块指令，指定了Nginx要开启哪些CPU内核，采用二进制表示对应的CPU内核。
 - `error_log`是个主模块指令，用来定义全局错误日志文件。日志输出级别有debug、info、notice、warn、error、crit可供选择，其中，debug输出日志最为详细，而crit输出日志最少。
 - `pid`是个主模块指令，用来指定进程id的存储文件位置。
 - `worker_rlimit_nofile`用于绑定worker进程和CPU，linux内核2.4以上可用（目前基本为2.6以上）
