@@ -28,7 +28,7 @@ tag: middleware
   - Handlers（处理器魔窟）。此类模块直接处理请求，并进行输出内容和修改headers信息等操作。Handlers处理器模块一般只能有一个。
   - Filters（过滤器模块）。此类模块主要对其他处理器模块输出的内容进行修改操作，最后由nginx输出。
   - Proxies（代理类模块）。此类模块是nginx的HTTP Upstream之类的模块，这些模块主要与后端一些服务比如FastCGI等进行交互，实现服务代理和负载均衡等功能。
-  ![](/images/middleware/nginx/Nginxmod.png)
+  ![](/images/posts/middleware/nginx/Nginxmod.png)
 
   在工作方式上，Nginx分为单工作进程和多工作进程两种模式。在单工作进程模式下，除主进程外，还有一个工作进程，工作进程是单线程的；在多工作进程模式下，每个工作进程包含多个线程。Nginx默认为单工作进程模式。
 
